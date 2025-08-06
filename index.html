@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Connect with Nitish Kumar Yadav</title>
+  <style>
+    body { margin:0; font-family: Arial,sans-serif; background:#f4f4f4; color:#333;}
+    header{background:#000;color:#fff;text-align:center;padding:1em;}
+    header img{width:80px;}
+    nav{text-align:center;background:#414141;padding:10px;}
+    nav a{color:#fff;margin:0 15px;text-decoration:none;font-weight:bold;}
+    section{padding:20px;}
+    .contact-box{background:#fff;border-radius:8px;padding:20px;max-width:400px;margin:20px auto;box-shadow:0 0 10px rgba(0,0,0,0.1);}
+    .lang-switch{text-align:center;margin-bottom:20px;}
+    .lang-switch button{margin:5px;padding:8px 16px;}
+    .hidden{display:none;}
+  </style>
+</head>
+<body>
+<header>
+  <img src="WhatsApp Image 2025-08-06 at 14.53.38_1be00d24.jpg" alt="Logo">
+  <h1 id="en-title">Connect with Nitish Kumar Yadav</h1>
+  <h1 id="hi-title" class="hidden">नितीश कुमार यादव से जुड़ें</h1>
+</header>
+<nav>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <a href="https://www.facebook.com/profile.php?id=100013572458915" target="_blank">Facebook</a>
+</nav>
+<div class="lang-switch">
+  <button onclick="showEnglish()">English</button>
+  <button onclick="showHindi()">हिंदी</button>
+</div>
+<section id="about">
+  <div id="en-about">
+    <h2>About</h2>
+    <p>Welcome! This page is created to connect with Nitish Kumar Yadav from Siwan, Bihar. Feel free to reach out through the contact options below.</p>
+  </div>
+  <div id="hi-about" class="hidden">
+    <h2>परिचय</h2>
+    <p>स्वागत है! यह पेज नितीश कुमार यादव (सिवान, बिहार) से जुड़ने के लिए बनाया गया है। नीचे दिए गए संपर्क विकल्पों से संपर्क करें।</p>
+  </div>
+</section>
+<section id="contact">
+  <div class="contact-box">
+    <h3 id="en-contact">Contact Information</h3>
+    <h3 id="hi-contact" class="hidden">संपर्क जानकारी</h3>
+    <p><strong>Mobile:</strong> +91 87892 91058</p>
+    <p><strong>Email:</strong> <a href="mailto:Nitish2663y@gmail.com">Nitish2663y@gmail.com</a></p>
+    <p><strong>Address:</strong> Siwan, Bihar</p>
+  </div>
+</section>
+<footer>&copy; 2025 Connect with Nitish Kumar Yadav</footer>
+<script>
+  function showEnglish() {
+    document.getElementById('en-title').classList.remove('hidden');
+    document.getElementById('hi-title').classList.add('hidden');
+    document.getElementById('en-about').classList.remove('hidden');
+    document.getElementById('hi-about').classList.add('hidden');
+    document.getElementById('en-contact').classList.remove('hidden');
+    document.getElementById('hi-contact').classList.add('hidden');
+  }
+  function showHindi() {
+    document.getElementById('en-title').classList.add('hidden');
+    document.getElementById('hi-title').classList.remove('hidden');
+    document.getElementById('en-about').classList.add('hidden');
+    document.getElementById('hi-about').classList.remove('hidden');
+    document.getElementById('en-contact').classList.add('hidden');
+    document.getElementById('hi-contact').classList.remove('hidden');
+  }
+</script>
+</body>
+</html>
